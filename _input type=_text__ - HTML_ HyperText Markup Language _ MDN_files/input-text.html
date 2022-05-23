@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)https://interactive-examples.mdn.mozilla.net/pages/tabbed/input-text.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>HTML Demo: &lt;input type="text"&gt;</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./codemirror-tabbed-5-50-2.css" rel="stylesheet">
+    <link href="./editor-tabbed.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="output-header">
+        <h4 class="output-heading">HTML Demo: &lt;input type="text"&gt;</h4>
+        <button id="reset" class="reset" type="button">Reset</button>
+    </header>
+    <div id="editor-container" class="editor-container tabbed-shorter">
+        <section id="tab-container" class="tabs">
+            <div class="tab-list" id="tablist" role="tablist">
+                <button role="tab" aria-selected="true" aria-controls="html-panel" id="html" class="">
+                    HTML
+                </button>
+                <button role="tab" aria-selected="false" aria-controls="css-panel" id="css" class="" tabindex="-1">
+                    CSS
+                </button>
+                <button role="tab" aria-selected="false" aria-controls="js-panel" id="js" class="hidden" tabindex="-1">
+                    JavaScript
+                </button>
+            </div>
+            <section id="html-panel" tabindex="0" role="tabpanel" aria-labelledby="html" class="" aria-hidden="false">
+                <div id="html-editor">
+                    <pre class="hidden"><code>&lt;label for="name"&gt;Name (4 to 8 characters):&lt;/label&gt;
+
+&lt;input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10"&gt;
+</code></pre>
+                <div class="CodeMirror cm-s-default CodeMirror-wrap CodeMirror-focused" translate="no"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 107.562px; left: 34px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; min-height: 1em; outline: none;" tabindex="0"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 30px; margin-bottom: -15px; border-right-width: 35px; min-height: 128px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 4px; top: 102.562px; height: 17.0938px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">1</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">label</span> <span class="cm-attribute">for</span>=<span class="cm-string">"name"</span><span class="cm-tag cm-bracket">&gt;</span>Name (4 to 8 characters):<span class="cm-tag cm-bracket">&lt;/</span><span class="cm-tag">label</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">2</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">3</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tag cm-bracket">&lt;</span><span class="cm-tag">input</span> <span class="cm-attribute">type</span>=<span class="cm-string">"text"</span> <span class="cm-attribute">id</span>=<span class="cm-string">"name"</span> <span class="cm-attribute">name</span>=<span class="cm-string">"name"</span> <span class="cm-attribute">required</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">4</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> &nbsp; &nbsp; &nbsp; <span class="cm-attribute">minlength</span>=<span class="cm-string">"4"</span> <span class="cm-attribute">maxlength</span>=<span class="cm-string">"10"</span> <span class="cm-attribute">size</span>=<span class="cm-string">"10"</span><span class="cm-tag cm-bracket">&gt;</span></span></pre></div><div style="position: relative;"><div class="CodeMirror-gutter-wrapper" aria-hidden="true" style="left: -30px;"><div class="CodeMirror-linenumber CodeMirror-gutter-elt" style="left: 0px; width: 21px;">5</div></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 35px; width: 1px; border-bottom: 0px solid transparent; top: 128px;"></div><div class="CodeMirror-gutters" style="height: 163px;"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 29px;"></div></div></div></div></div>
+            </section>
+            <section id="css-panel" tabindex="0" role="tabpanel" aria-labelledby="css" class="hidden" aria-hidden="true">
+                <div id="css-editor">
+                    <pre class="hidden"><code>label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+</code></pre>
+                <div class="CodeMirror cm-s-default" translate="no"><div style="overflow: hidden; position: relative; width: 3px; height: 0px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; min-height: 1em; outline: none;"></textarea></div><div class="CodeMirror-vscrollbar" tabindex="-1" cm-not-content="true"><div style="min-width: 1px;"></div></div><div class="CodeMirror-hscrollbar" tabindex="-1" cm-not-content="true"><div style="height: 100%; min-height: 1px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; min-width: 3px;"><div style="position: relative;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><div class="CodeMirror-linenumber CodeMirror-gutter-elt"><div>10</div></div></div><div class="CodeMirror-measure"><pre class="CodeMirror-line" role="presentation"><span role="presentation" style="padding-right: 0.1px;">    <span class="cm-property">font</span>: <span class="cm-number">1rem</span> <span class="cm-string">'Fira Sans'</span>, <span class="cm-atom">sans-serif</span>;</span></pre></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors"></div><div class="CodeMirror-code" role="presentation"></div></div></div></div></div><div style="position: absolute; height: 50px; width: 1px;"></div><div class="CodeMirror-gutters"><div class="CodeMirror-gutter CodeMirror-linenumbers" style="width: 1px;"></div></div></div></div></div>
+            </section>
+            <section id="js-panel" tabindex="0" role="tabpanel" aria-labelledby="js" class="hidden" aria-hidden="true">
+                <div id="js-editor">
+                    <pre class="hidden"><code></code></pre>
+                </div>
+            </section>
+        </section>
+        <div id="output" class="shadow-container">
+          <h4 class="output-label">Output</h4>
+          <shadow-output></shadow-output>
+        <template id="code_tmpl"></template></div>
+    </div>
+
+    <section class="console-container hidden" aria-hidden="true">
+        <h4 class="console-label">Console Output</h4>
+        <button type="button" id="clear" class="clear">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 877.714 1024" class="icon-clear">
+                <path class="path0" fill="currentColor" d="M749.714 510.286c0-62.286-18.286-120-49.714-168.571L269.143 772.001c49.143 32 107.429 50.857 169.714 50.857 171.429 0 310.857-140 310.857-312.571zM178.857 681.143l431.429-430.857c-49.143-33.143-108-52-171.429-52-171.429 0-310.857 140-310.857 312 0 63.429 18.857 121.714 50.857 170.857zm698.857-170.857c0 243.429-196.571 440.571-438.857 440.571S0 753.714 0 510.286c0-242.857 196.571-440 438.857-440s438.857 197.143 438.857 440z"></path>
+            </svg>
+            clear console</button>
+        <div id="console" class="console"><code></code></div>
+    </section>
+
+    <script src="./codemirror-tabbed-5-50-2.js"></script>
+    <script src="./editor-tabbed.js"></script>
+
+
+
+</body></html>
